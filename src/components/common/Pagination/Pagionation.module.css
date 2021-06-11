@@ -1,0 +1,42 @@
+
+
+.pagination {
+    display: flex;
+}
+
+.page_item,.selected_page {
+    border: 1px solid #000000;
+    cursor: pointer;
+    padding: 3px;
+    text-align: center;
+    width: 19px;
+    margin: 5px;
+    transition: all ease 400ms;
+}
+
+.button,.button_prev{
+    cursor: pointer;
+    padding: 3px;
+    text-align: center;
+    width: 19px;
+    margin: 5px;
+    background: transparent;
+    border: 1px solid;
+    transition: all ease 400ms;
+}
+
+.button:hover,.button_prev:hover,
+.page_item:hover,selected_page:hover{
+    transition: all ease 400ms;
+    border-color: #00bcd4;
+    color: #0072d4;
+}
+
+.button_prev{
+    transform: rotate(180deg);
+}
+
+.selected_page {
+    font-weight: bold;
+    border-color: #00bcd4;
+}

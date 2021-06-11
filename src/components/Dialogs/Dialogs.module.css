@@ -1,0 +1,85 @@
+.wrapp{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialogs_item{
+    display: block;
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.name{
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+}
+
+.title{
+    margin: 20px;
+}
+
+.dialogs{
+    width: 50%;
+    border-right: 1px solid;
+}
+
+.message{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.message_item{
+    display: flex;
+    margin-top: 10px;
+}
+
+.message_list{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.entity{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.img_profile{
+    max-width: 70px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.nav_block{
+    display: flex;
+}
+
+.img_dialog{
+    max-width: 50px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.input_message{
+    background: #ffe4c4;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-left: 20px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.send_button{
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 100px;
+    height: 30px;
+    width: 100%;
+    background-color: #5f9ea0;
+    color: #fff;
+    border: 0;
+}

@@ -1,0 +1,21 @@
+.header {
+    height: 100px;
+    background-color: cadetblue;
+}
+
+.logo{
+    height: 100px;
+}
+
+.wrapp{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    margin-right: 15px;
+    color: #64e2ff;
+    font-size: 40px;
+}

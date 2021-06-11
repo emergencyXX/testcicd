@@ -1,0 +1,22 @@
+.posts_item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.posts_item p {
+    margin-left: 20px;
+
+    max-width: 600px;
+    font-size: 18px;
+}
+
+.posts_item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.like{
+    display: block;
+}
